@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "claude-code-output-style-michel",
+  "description": "The Michel output style for Claude Code.",
+  "owner": {
+    "name": "promontis"
+  },
+  "plugins": [
+    {
+      "name": "michel",
+      "description": "Context first, one question at a time, step-by-step explanations with worked examples, real code and real data.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
