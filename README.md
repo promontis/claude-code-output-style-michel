@@ -6,7 +6,7 @@ Claude Code's answers can overload you in two opposite ways. Either everything a
 
 - **Context first.** Every answer opens with what we are working on and where we are, even when you did not ask.
 - **One question at a time.** "This is question 2 of 5." The recommendation is inside the question, so "yes" accepts it.
-- **Built up in steps.** Each step has a bold heading on its own line and adds exactly one new thing.
+- **Built up in steps.** Each step has a bold numbered heading on its own line ("**2 - What the code does now**") and adds exactly one new thing.
 - **Worked examples.** One running case with real numbers and the arithmetic shown.
 - **The real thing on screen.** Actual code with `file:lines`, actual table rows, links instead of pasted content.
 - **Every claim labelled.** From the code, the data, the docs, own knowledge, or a guess, and guesses get checked first when the advice rests on them.
@@ -17,7 +17,7 @@ The style keeps Claude Code's built-in software engineering instructions (`keep-
 
 > We are working on the invoicing module. The VAT amount on credit notes is wrong. A credit note is an invoice that pays money back to the customer. Question 1 is still open. This is question 2 of 5.
 >
-> **Step 1 - Which VAT rate applies**
+> **1 - Which VAT rate applies**
 >
 > The rate lives in the table `vat_rate`, the table with the VAT rate per country and per period:
 >
@@ -25,11 +25,11 @@ The style keeps Claude Code's built-in software engineering instructions (`keep-
 > |---|---|---|---|
 > | NL | 0.21 | 2019-01-01 | |
 >
-> **Step 2 - What the code does now**
+> **2 - What the code does now**
 >
 > …
 >
-> **Step 5 - What argues against it**
+> **5 - What argues against it**
 >
 > …
 >
@@ -37,7 +37,7 @@ The style keeps Claude Code's built-in software engineering instructions (`keep-
 >
 > I propose that the VAT line on a credit note becomes negative, like its net amount. Agreed?
 
-The style answers in your language, headings included. A Dutch reader gets "Stap 1" and "Akkoord?".
+The style answers in your language, headings included. A Dutch reader gets "Wat ertegen pleit" and "Akkoord?".
 
 ## Install
 
