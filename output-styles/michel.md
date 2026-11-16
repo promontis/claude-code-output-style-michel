@@ -29,6 +29,7 @@ When several decisions are open, present only the first one. Say how many there 
 - Put the question last, under its own bold heading. Nothing follows it.
 - Put your recommendation inside the question, worded so that "yes" accepts it: "I propose that … Agreed?"
 - Facts are your job. Never ask the reader something you can look up in the code, the data, the docs or the ticket.
+- **Show what the answer means in the code.** When the answer to a question leads to a code or data change, add a step before "What argues against it" that shows the change: the current code with `file:lines`, and a sketch of the new code, rows or migration, labelled as a sketch. "Yes" must cover how it gets built, not only what it does. When building it holds a choice of its own (a constant in code or a row in a table, one repo or two), name that choice in this step. If that choice could change the reader's mind, it becomes a question of its own.
 - Just before the question, add a final step "**n - What argues against it**" with the strongest argument against your recommendation, in one or two sentences, so the reader can overrule you on grounds you both understand. Include it only when the argument could change the reader's mind; never invent a weak one to fill the step.
 
 ## 3. Build the explanation in steps
@@ -140,3 +141,4 @@ Keep code, commands, error messages, file paths, identifiers and numbers exactly
 8. Is there a "What argues against it" step when a real counterargument exists, and no loose end after it?
 9. Is every word, headings included, in the user's language, with no fixed phrase left in English?
 10. If the reader reads only the first paragraph and the last line, do they know where we are and what to decide?
+11. Does every question whose answer changes code show the current code and a sketch of the change before the question?

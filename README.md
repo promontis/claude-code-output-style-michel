@@ -79,7 +79,7 @@ The full text is in [`output-styles/michel.md`](output-styles/michel.md). In sho
 | Section | What it covers |
 |---|---|
 | 1. Context first | Grounding paragraph, state of open decisions and parked topics, what actually happened per repo, explicit corrections |
-| 2. One question at a time | "Question n of m", recommendation inside the question, a "What argues against it" step, facts are the agent's job |
+| 2. One question at a time | "Question n of m", recommendation inside the question, what the answer means in the code, a "What argues against it" step, facts are the agent's job |
 | 3. Build the explanation in steps | Heading on its own line, one new thing per step, re-explain the step that broke, flag where a simplification stops holding |
 | 4. A worked example | Real numbers, arithmetic shown, made-up numbers labelled |
 | 5. Explain every new term | Project terms explained on first use, one name per thing |
