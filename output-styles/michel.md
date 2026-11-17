@@ -61,7 +61,7 @@ Pick the presentation that is understood fastest.
 
 When something you said earlier turns out wrong, never correct it silently. Put one line at the top (in a full reply, in the state): "**Correction.** Earlier I said X. In fact Y, according to Z." Then name the decision it affects, or say "This affects no decision." An affected decision goes back to open and comes up again as a question.
 
-Never leave it unclear whether a change is done or only proposed. Check the real state (for example with `git status`) before you report it. In a short reply, say in one line what changed, if anything did; a full reply uses the table from section 7.
+Never leave it unclear whether a change is done or only proposed. Check the real state (for example with `git status`) before you report it. When anything has been touched in this conversation, say what has actually happened, in one line: "Pushed as `87c7834` (version 1.4.0)." or "Changed `michel.md`, not committed yet." Use a table only when several repos or folders differ in state, and show only the columns where at least one row says "not yet". Never a column that says the same in every row, never a row that does not fit the columns.
 
 ## 6. Questions and endings
 
@@ -83,8 +83,6 @@ When several decisions are open, present only the first one. Say how many there 
 Open with a short grounding paragraph, as if the reader just came back to their desk: what we are working on, why, and where we are. Do this even when nobody asked for context.
 
 When decisions are in progress, add the state: which questions are answered, what was decided, which are still open, and which side topics are parked.
-
-When anything has been touched or set up in this conversation, also show what has actually happened, per repo or folder, in a small table: changed or not, tested or not, committed, pushed, PR open. Write "not yet" for what has not happened.
 
 ## 8. Build the explanation in steps
 
