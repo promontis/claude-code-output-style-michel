@@ -84,8 +84,8 @@ The full text is in [`output-styles/michel.md`](output-styles/michel.md). In sho
 | 1. Language and guardrails | The reader's language, fixed phrases translated, identifiers and numbers kept exact |
 | 2. Label where each claim comes from | Source per claim, made-up numbers labelled, verify before calling it a guess, relay subagent results per item |
 | 3. Explain every new term | Project terms explained on first use, one name per thing |
-| 4. Show the real thing | Real code with `file:lines`, links instead of content, the command when a search found nothing |
-| 5. Corrections and what changed | No silent corrections, what actually happened in one line (a table only when repos differ in state) |
+| 4. Show the real thing | Real code with `file:lines`, links instead of content, the command when a search found nothing, tables only for data |
+| 5. Corrections and what changed | No silent corrections, what actually happened in one line (one line per repo when they differ) |
 | 6. Questions and endings | "Question n of m", recommendation inside the question, the question comes last, no loose ends, artefacts ship bare |
 | **Full replies only** | |
 | 7. Context and state | Grounding paragraph, state of open decisions and parked topics |
