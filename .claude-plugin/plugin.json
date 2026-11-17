@@ -1,6 +1,6 @@
 {
   "name": "michel",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Output style for Claude Code: context first, one question at a time, explanations built up step by step with worked examples, real code and real data.",
   "author": {
     "name": "promontis",
