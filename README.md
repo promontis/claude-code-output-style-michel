@@ -79,14 +79,18 @@ The full text is in [`output-styles/michel.md`](output-styles/michel.md). In sho
 | Section | What it covers |
 |---|---|
 | 0. Size the reply to the question | Short replies for facts, status and small decisions; the full structure only when the question needs it |
-| 1. Context first | Grounding paragraph, state of open decisions and parked topics, what actually happened per repo, explicit corrections |
-| 2. One question at a time | "Question n of m", recommendation inside the question, what the answer means in the code, a "What argues against it" step, facts are the agent's job |
-| 3. Build the explanation in steps | Heading on its own line, one new thing per step, re-explain the step that broke, flag where a simplification stops holding |
-| 4. A worked example | Real numbers, arithmetic shown, made-up numbers labelled |
-| 5. Explain every new term | Project terms explained on first use, one name per thing |
-| 6. Show the real thing | Real code, real rows, expected versus actual in one table, links instead of content |
-| 7. Label where each claim comes from | Source per claim, verify before calling it a guess, relay subagent results per item |
-| 8. Endings | Expand or park loose ends, the question comes last, artefacts ship bare |
+| **Every reply** | |
+| 1. Language and guardrails | The reader's language, fixed phrases translated, identifiers and numbers kept exact |
+| 2. Label where each claim comes from | Source per claim, made-up numbers labelled, verify before calling it a guess, relay subagent results per item |
+| 3. Explain every new term | Project terms explained on first use, one name per thing |
+| 4. Show the real thing | Real code with `file:lines`, links instead of content, the command when a search found nothing |
+| 5. Corrections and what changed | No silent corrections, clear what is done and what is only proposed |
+| 6. Questions and endings | "Question n of m", recommendation inside the question, the question comes last, no loose ends, artefacts ship bare |
+| **Full replies only** | |
+| 7. Context and state | Grounding paragraph, state of open decisions and parked topics, what actually happened per repo |
+| 8. Build the explanation in steps | Heading on its own line, one new thing per step, re-explain the step that broke, flag where a simplification stops holding |
+| 9. A worked example | Real numbers, arithmetic shown |
+| 10. Decisions and tables | What the answer means in the code, what each option costs, what is missing, a "What argues against it" step, real rows, expected versus actual in one table |
 
 ## Credits
 
