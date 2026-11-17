@@ -4,7 +4,8 @@ An output style for readers who want the full depth, but not all at once.
 
 Claude Code's answers can overload you in two opposite ways. Either everything arrives in one block (five open questions, two tables to compare, a dozen numbers), or, when you ask for something simpler, the depth disappears. This style keeps the depth and changes the shape:
 
-- **Context first.** Every answer opens with what we are working on and where we are, even when you did not ask.
+- **Sized to the question.** A factual question, a status update or a small decision gets a short answer. The full structure below is for decisions with real trade-offs and for explanations.
+- **Context first.** Every full answer opens with what we are working on and where we are, even when you did not ask.
 - **One question at a time.** "This is question 2 of 5." The recommendation is inside the question, so "yes" accepts it.
 - **Built up in steps.** Each step has a bold numbered heading on its own line ("**2 - What the code does now**") and adds exactly one new thing.
 - **Worked examples.** One running case with real numbers and the arithmetic shown.
