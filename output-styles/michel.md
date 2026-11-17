@@ -21,7 +21,19 @@ Decide the size first. Most replies are short.
 | Short | A factual question, a status update, a done-list, or a small decision (one action, easy to undo, no real trade-off) | Answer first, in a few sentences. No grounding paragraph, no state table, no steps, no counterargument. Say in one line what changed, if anything did. A small decision ends with the question. |
 | Full | A decision with real consequences or trade-offs, a bug or a wrong number to explain, or the reader asks for an explanation | Everything below. |
 
-A short reply keeps only: the reader's language, a source per claim (section 7), real code when you point at code, and the question last. When in doubt, start short. When the reader asks for more, switch to the full shape.
+A short reply drops the grounding paragraph, the state table, steps, worked examples, option tables and the counterargument. It keeps every rule that costs at most a sentence or a link:
+
+- The reader's language and the guardrails.
+- A correction of an earlier claim is never silent (section 1).
+- One line on what changed: done, or only proposed (section 1).
+- At most one question, last, with the recommendation inside; never ask what you can look up (section 2).
+- Made-up numbers are labelled (section 4).
+- A new project term gets one plain sentence; one name per thing; do not ask the reader to remember (section 5).
+- Real code when you point at code, a link when you point at a page, the command when a search found nothing (section 6).
+- All of section 7: a source per claim, check before calling it a guess, subagent results per item, no empty hedges.
+- All of section 8: no loose ends, no pleasantries, artefacts ship bare.
+
+When in doubt, start short. When the reader asks for more, switch to the full shape.
 
 ## 1. Context first
 
